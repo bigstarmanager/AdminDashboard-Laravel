@@ -1,0 +1,132 @@
+{
+    "menu": [{
+            "url": "home",
+            "i18n": "Dashboard",
+            "name": "Dashboard",
+            "slug": "dashboard",
+            "activate": "DashboardDropdown",
+            "icon": "dashboard"
+        },
+        {
+            "url": "page-admin-list",
+            "i18n": "Administrators",
+            "name": "Administrators",
+            "icon": "accessibility",
+            "slug": "Administrators",
+            "activate": "Administrators"
+        },
+        {
+            "url": "page-users-list",
+            "i18n": "App Users",
+            "name": "App Users",
+            "icon": "supervisor_account",
+            "slug": "App Users",
+            "activate": "App Users"
+        },
+        {
+            "url": "javascript:void(0)",
+            "i18n": "App Management",
+            "name": "App Management",
+            "activate": "formsTables",
+            "icon": "apps",
+            "dropdown": "1",
+            "submenu": [{
+                    "url": "page-city-list",
+                    "i18n": "City Management",
+                    "name": "City Management",
+                    "slug": "city-management"
+                },
+                {
+                    "url": "page-notification-management",
+                    "i18n": "Notification Management",
+                    "name": "Notification Management",
+                    "slug": "notification-management"
+                },
+                {
+                    "url": "form-report-management",
+                    "i18n": "Report Management",
+                    "name": "Report Management",
+                    "slug": "form-report"
+                },
+                {
+                    "url": "page-language-list",
+                    "i18n": "Language Management",
+                    "name": "Language Management",
+                    "slug": "language-management"
+                },
+                {
+                    "url": "page-banner-list",
+                    "i18n": "Banner Management",
+                    "name": "Banner Management",
+                    "slug": "banner-management"
+                },
+                {
+                    "url": "page-restaurant-list",
+                    "i18n": "Restaurant Management",
+                    "name": "Restaurant Management",
+                    "slug": "restaurant-management"
+                },
+                {
+                    "url": "page-apptext-edit",
+                    "i18n": "App Text Management",
+                    "name": "App Text Management",
+                    "slug": "apptext-management"
+                },
+                {
+                    "url": "form-page-editor",
+                    "name": "App Page Editor",
+                    "i18n": "App Page Editor",
+                    "slug": "form-editor"
+                }
+            ]
+        },
+        {
+            "url": "javascript:void(0)",
+            "i18n": "Order Management",
+            "name": "Order Management",
+            "activate": "table",
+            "icon": "star",
+            "dropdown": "1",
+            "submenu": [{
+                    "url": "table-new-orders",
+                    "i18n": "New Orders",
+                    "name": "New Orders",
+                    "slug": "orders"
+                },
+                {
+                    "url": "table-cancelled-orders",
+                    "i18n": "Cancelled Orders",
+                    "name": "Cancelled Orders",
+                    "slug": "torders"
+                },
+                {
+                    "url": "table-running-orders",
+                    "i18n": "Running Orders",
+                    "name": "Running Orders",
+                    "slug": "orders"
+                },
+                {
+                    "url": "table-completed-orders",
+                    "i18n": "Completed Orders",
+                    "name": "Completed Orders",
+                    "slug": "orders"
+                }
+            ]
+        },
+        {
+            "url": "page-discount-list",
+            "i18n": "Discount Offer",
+            "name": "Discount Offer",
+            "activate": "discount",
+            "icon": "thumb_up"
+        },
+        {
+            "url": "page-account-settings",
+            "i18n": "Account Settings",
+            "name": "Account Settings",
+            "icon": "account_circle",
+            "slug": "Account Settings",
+            "activate": "Account Settings"
+        }
+    ]
+}
